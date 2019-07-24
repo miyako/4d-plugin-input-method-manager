@@ -1,6 +1,12 @@
 # 4d-plugin-input-method-manager
 Commands to control the front-end text editor on Windows.
 
+**注記** Windows 7以前のOSではIMEモードがスレッド単位で保持されていました。
+Windows 8やWindows Server 2012ではユーザー単位で保持されるように仕様が変更されています。
+この変更によって，ImeMode プロパティによるIMEモードの切り替えが動作しない場合があります。
+
+https://docs.grapecity.com/help/spread-winforms-8/gc-spwin-ime.html
+
 ### Platform
 
 | carbon | cocoa | win32 | win64 |
