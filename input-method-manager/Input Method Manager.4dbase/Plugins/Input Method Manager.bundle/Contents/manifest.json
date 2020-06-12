@@ -1,1 +1,26 @@
-﻿{"name":"Input Method Manager","id":20000,"commands":[{"theme":"Imm Context","syntax":"IM Associate:L"},{"theme":"Imm Context","syntax":"IM Disassociate:L"},{"theme":"Imm Status","syntax":"IM Get mode(&L;&L):L"},{"theme":"Imm Status","syntax":"IM Set mode(&L;&L):L"}]}
+{
+    "name": "Input Method Manager",
+    "id": 20000,
+    "commands": [
+        {
+            "theme": "Imm Context",
+            "syntax": "IM Associate:L",
+            "threadSafe": true
+        },
+        {
+            "theme": "Imm Context",
+            "syntax": "IM Disassociate:L",
+            "threadSafe": true
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Get mode(&L;&L):L",
+            "threadSafe": true
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Set mode(&L;&L):L",
+            "threadSafe": true
+        }
+    ]
+}
