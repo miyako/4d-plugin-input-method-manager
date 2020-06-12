@@ -13,19 +13,13 @@ https://docs.grapecity.com/help/spread-winforms-8/gc-spwin-ime.html
 |:------:|:-----:|:---------:|:---------:|
 |||<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|
 
-* Mac向けは[こちら](https://github.com/miyako/4d-plugin-text-input-service/)
-
 ### Version
 
-<img src="https://cloud.githubusercontent.com/assets/1725068/18940649/21945000-8645-11e6-86ed-4a0f800e5a73.png" width="32" height="32" /> <img src="https://cloud.githubusercontent.com/assets/1725068/18940648/2192ddba-8645-11e6-864d-6d5692d55717.png" width="32" height="32" />
-
-### Releases
-
-[1.0](https://github.com/miyako/4d-plugin-input-method-manager/releases/tag/1.0)
+<img width="32" height="32" src="https://user-images.githubusercontent.com/1725068/73986501-15964580-4981-11ea-9ac1-73c5cee50aae.png"> <img src="https://user-images.githubusercontent.com/1725068/73987971-db2ea780-4984-11ea-8ada-e25fb9c3cf4e.png" width="32" height="32" />
 
 ## Syntax
 
-```
+```4d
 error:=IM Associate
 error:=IM Disassociate
 ```
@@ -34,7 +28,7 @@ Parameter|Type|Description
 ------------|------------|----
 error|LONGINT|``ImmAssociateContextEx``の返り値（エラーコード）
 
-```
+```4d
 result:=IM Get mode (conversion;sentence)
 result:=IM Set mode (conversion;sentence)
 ```
