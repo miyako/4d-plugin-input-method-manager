@@ -7,6 +7,8 @@ Windows 8やWindows Server 2012ではユーザー単位で保持されるよう�
 
 https://docs.grapecity.com/help/spread-winforms-8/gc-spwin-ime.html
 
+[こちら](https://github.com/miyako/4d-plugin-input-scope)も参照
+
 ### Platform
 
 | carbon | cocoa | win32 | win64 |
